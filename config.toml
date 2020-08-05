@@ -1,6 +1,6 @@
-baseURL       = "hong-kong-district-info.github.io"
+baseURL       = "/"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "Hong Kong Districts Info"
 theme         = "roxo"
 summarylength = 25
 
@@ -16,7 +16,7 @@ summarylength = 25
     url     = "about"
     weight  = 2
   [[menu.nav]]
-    name    = "Portfolio"
+    name    = "Projects"
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
@@ -33,9 +33,9 @@ summarylength = 25
   logo = "images/logo.png"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  description = "Hong Kong Districts Info"
   author = "StaticMania"
-  # Google Analitycs
+  # Google Analytics
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
   formspreeFormUrl  = "https://formspree.io/myykjpje"
@@ -51,17 +51,17 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "See Our Works"
+    heading               = "We code for Hong Kong"
+    tagline               = "WE CODE HARD, WE PLAY HARD"
+    primary_button        = "See Our Projects"
     primary_button_url    = "portfolio"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
 
   [params.portfolio]
     enable    = true
-    title     = "OUR RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    title     = "OUR RECENT PROJECTS"
+    subtitle  = "Projects to empower Hong Kong"
 
   [params.call_to_action]
     enable              = true
@@ -76,9 +76,9 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      address = ""
+      phone   = ""
+      email   = "hkdistricts.info@gmail.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
@@ -98,16 +98,7 @@ summarylength = 25
       [params.footer.social]
         title   = "Social Media"
         [[params.footer.social.link]]
-          name = "Medium"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Behance"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Dribbble"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Instagram"
+          name = "GitHub"
           url  = "#"
       # Footer Service
       [params.footer.service]

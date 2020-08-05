@@ -11,6 +11,9 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 # Go To Public folder
 cd public
 
+# Force set url
+git remote set-url origin git@github.com:Hong-Kong-Districts-Info/hong-kong-districts-info.github.io.git
+
 # Add changes to git.
 git add .
 
