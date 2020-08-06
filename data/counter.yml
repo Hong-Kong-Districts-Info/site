@@ -1,14 +1,8 @@
 enable : true
-heading : "THE PROOF IS IN THE PUDDING!"
+heading : "PROJECTS IN THE MAKING..."
 counter_item: 
-  - title: "Happy Clients"
-    number: "250"
+  - title: "Projects brewing..."
+    number: "3"
 
-  - title: "Projects Completed"
-    number: "100"
-
-  - title: "Cups of coffee"
-    number: "350"
-
-  - title: "Telephone Talks"
-    number: "775"
+  - title: "District Councillors covered..."
+    number: "452"
