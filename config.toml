@@ -34,7 +34,7 @@ summarylength = 25
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "Hong Kong Districts Info"
-  author = "StaticMania"
+  author = "Hong Kong Districts Info"
   # Google Analytics
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
@@ -99,7 +99,7 @@ summarylength = 25
         title   = "Social Media"
         [[params.footer.social.link]]
           name = "GitHub"
-          url  = "#"
+          url  = "https://github.com/Hong-Kong-Districts-Info/"
       # Footer Service
       [params.footer.service]
         title       = "We empower people:"
