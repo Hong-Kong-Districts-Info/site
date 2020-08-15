@@ -10,11 +10,12 @@
           <img class="feature-image" src="{{ .Params.feature_image | absURL }}" alt="blog-feature-image">
           {{ .Content }}
         </article>
+		<iframe src="https://www.facebook.com/plugins/page.php?href= {{ .Params.iframe }} &tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=3131730406906292" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>	
       </div>
     </div>
   </div>
 </section>
 
-{{ partial "call-to-action.html" . }}
+<!-- {{ partial "call-to-action.html" . }} -->
 
 {{ end }}
