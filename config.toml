@@ -40,7 +40,7 @@ summarylength = 25
   description = "Hong Kong Districts Info"
   author = "Hong Kong Districts Info"
   # Google Analytics
-  googleAnalitycsID = "Your ID"
+  googleAnalitycsID = "UA-173737339-1"
   # We're using formspree.io for form handling, paste your formspree url below
   formspreeFormUrl  = "https://formspree.io/myykjpje"
   
