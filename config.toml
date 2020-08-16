@@ -111,3 +111,8 @@ summarylength = 25
       [params.footer.service]
         title       = "We empower people:"
         description = "by making information easily accessible and removing the friction in civic participation."
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  languages = "languages"
