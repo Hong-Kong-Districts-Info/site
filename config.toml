@@ -1,4 +1,4 @@
-baseURL       = "/"
+baseURL       = "https://hong-kong-districts-info.github.io/"
 languageCode  = "en-us"
 title         = "Hong Kong Districts Info"
 theme         = "roxo"
