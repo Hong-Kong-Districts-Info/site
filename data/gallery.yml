@@ -1,8 +1,58 @@
 enable  : true
+title         : "Our 18 Districts / 我們的十八區"
 galleryImages :
-  - image : images/portfolio/item-1.jpg
-  - image : images/portfolio/item-2.jpg
-  - image : images/portfolio/item-3.jpg
-  - image : images/portfolio/item-4.jpg
-  - image : images/portfolio/item-5.jpg
-  - image : images/portfolio/item-6.jpg
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_1.png
+    link  : tags/central-and-western
+  
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_2.png
+    link  : tags/wan-chai
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_3.png
+    link  : tags/eastern
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_4.png
+    link  : tags/southern
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_5.png
+    link  : tags/yau-tsim-mong
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_6.png
+    link  : tags/sham-shui-po
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_7.png
+    link  : tags/kowloon-city
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_8.png
+    link  : tags/wong-tai-sin
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_9.png
+    link  : tags/kwun-tong
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_10.png
+    link  : tags/tsuen-wan
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_11.png
+    link  : tags/tuen-mun
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_12.png
+    link  : tags/yuen-long
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_13.png
+    link  : tags/north
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_14.png
+    link  : tags/tai-po
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_15.png
+    link  : tags/sai-kung
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_16.png
+    link  : tags/sha-tin
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_17.png
+    link  : tags/kwai-tsing
+
+  - image : images/dc-art/District_Balls_Small/DistrictBalls_18.png
+    link  : tags/islands
+
+  
