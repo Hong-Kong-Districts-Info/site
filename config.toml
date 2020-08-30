@@ -109,6 +109,13 @@ googleAnalytics = "UA-173737339-2"
         [[params.footer.social.link]]
           name = "GitHub"
           url  = "https://github.com/Hong-Kong-Districts-Info/"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://www.facebook.com/hkdistrictsinfo/"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://www.instagram.com/hkdistrictsinfo/"
+          
       # Footer Service
       [params.footer.service]
         title       = "We empower people:"
