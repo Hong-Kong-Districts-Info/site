@@ -20,6 +20,8 @@ The Shiny app is deployed onto shinyapps.io in the links below:
 
 https://hkdistricts-info.shinyapps.io/dashboard-hkdistrictcouncillors/
 
+There is also a static site version of the district councillors individual pages [here](https://hong-kong-districts-info.github.io/dc/).
+
 ### GitHub Repository
 The GitHub repo can be accessed [here](https://github.com/Hong-Kong-Districts-Info/dashboard-hkdistrictcouncillors). 
 
@@ -36,3 +38,4 @@ This app uses data from:
 - [Shapefiles of Hong Kong District Councils]https://accessinfo.hk/en/request/shapefileshp_for_2019_district_c)
 
 Most of the data is put together as part of our other project {hkdatasets}, which collects public domain data about Hong Kong district councillors in an R package. Click [here](../../portfolio/hkdatasets/) to find out more.
+

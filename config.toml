@@ -21,17 +21,13 @@ googleAnalytics = "UA-173737339-2"
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
-    name    = "DCs / 區議員"
-    url     = "dc"
-    weight  = 4
-  [[menu.nav]]
     name    = "Blog / 博客"
     url     = "blog"
-    weight  = 5
+    weight  = 4
   [[menu.nav]]
     name    = "Get in touch / 聯絡我們"
     url     = "contact"
-    weight  = 6
+    weight  = 5
 
 # Site Params
 [params]
