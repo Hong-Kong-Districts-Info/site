@@ -11,8 +11,8 @@
             </h1>
           </div>
           <div class="site-about-description">
-            <p>
-              {{ .Description }}
+            <p>              
+			  {{ .Description }}
             </p>
           </div>
         </div>
@@ -20,6 +20,17 @@
     </div>
   </div>
 </section>
+
+<!-- Site content defined in .md -->
+<div class="container">
+  <div class="row">
+	<br><br>
+    <article class="site-blog-details">
+        {{ .Content }}
+    </article> 
+	<br><br>
+  </div>
+</div>
 
 <section class="site-expertise">
   <div class="container">
