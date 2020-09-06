@@ -2,37 +2,37 @@ enable  : true
 title   : "OUR TEAM"
 subtitle: "Who we are"
 testimonial_item :
-  - thumb : "images/testimonial/user-thumb-one.jpg"
+  - thumb : "images/team/avision.jpg"
     name  : "Avision"
     company_position: "Data Scientist / Project Manager"
     quote : > 
             
 
-  - thumb : "images/testimonial/user-thumb-two.jpg"
+  - thumb : "images/team/ocean.jpg"
     name  : "Ocean"
     company_position: "Design Specialist"
     quote : > 
             
 
-  - thumb : "images/testimonial/user-thumb-three.jpg"
+  - thumb : "images/team/martin.jpg"
     name  : "Martin"
     company_position: "Data and R Specialist / Writer"
     quote : > 
             
             
-  - thumb : "images/testimonial/user-thumb-six.jpg"
+  - thumb : "images/team/justin.jpg"
     name  : "Justin"
     company_position: "Urban planning specialist"
     quote : > 
                       
 
-  - thumb : "images/testimonial/user-thumb-four.jpg"
+  - thumb : "images/team/tiffany.jpg"
     name  : "Tiff"
     company_position: "UI Specialist"
     quote : > 
             
 
-  - thumb : "images/testimonial/user-thumb-five.jpg"
+  - thumb : "images/team/gabriel.jpg"
     name  : "Gabriel"
     company_position: "Data and Shiny Specialist"
     quote : > 
