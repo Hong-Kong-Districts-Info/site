@@ -15,6 +15,8 @@ Our project objective is as follows:
 
 ---
 
+![](https://github.com/Hong-Kong-Districts-Info/hong-kong-districts-info.github.io/raw/master/images/DCAppDemo3.gif)
+
 ### The App
 The Shiny app is deployed onto shinyapps.io in the links below:
 
@@ -35,7 +37,10 @@ As part of the philosophy of the project, we have tried to adhere as closely as 
 This app uses data from:
 - Wikipedia
 - Facebook pages from each District Councillor
-- [Shapefiles of Hong Kong District Councils]https://accessinfo.hk/en/request/shapefileshp_for_2019_district_c)
+- [Shapefiles of Hong Kong District Councils](https://accessinfo.hk/en/request/shapefileshp_for_2019_district_c)
 
 Most of the data is put together as part of our other project {hkdatasets}, which collects public domain data about Hong Kong district councillors in an R package. Click [here](../../portfolio/hkdatasets/) to find out more.
+
+### Recommended Articles
+- [A Shiny App for Hong Kong District Councillors](https://martinctc.github.io/blog/a-shiny-app-on-hong-kong-district-councillors/), also posted on [R-bloggers](https://www.r-bloggers.com/)
 
