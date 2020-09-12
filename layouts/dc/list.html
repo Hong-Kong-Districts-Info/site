@@ -1,0 +1,111 @@
+{{ define "main" }}
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  min-height: 300px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.container2 {
+  padding: 2px 16px;
+  max-width: 400px;
+   margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<section class="site-blog-header">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h1>{{ .Title }}</h1>
+        <p>
+          {{ .Params.description }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+
+
+<section class="site-blog">
+	<div class="container2">
+	<a href="{{ .Site.BaseURL }}/categories/hong-kong-island/" class="btn btn-primary btn-block" role="button" aria-disabled="true">
+		香港島 / Hong Kong Island
+	</a>
+	<a href="{{ .Site.BaseURL }}/categories/kowloon/" class="btn btn-secondary btn-block" role="button" aria-disabled="true">
+		九龍 / Kowloon
+	</a>
+	<a href="{{ .Site.BaseURL }}/categories/new-territories/" class="btn btn-success btn-block" role="button" aria-disabled="true">
+		新界離島 / New Territories
+	</a>
+	</div>
+	<br>
+  <div class="container">
+    <div class="row">
+      {{ range (.Paginator 100).Pages }}
+      <div class="col-md-3">
+        <article class="site-blog-post">
+          <a href="{{ .Permalink }}">
+		  <div class="card">
+			<br>
+			{{ with .Params.image }}
+				<img class="center" src="{{ . | absURL }}" alt="post-thumb" style="height:100px; width:100px;">
+			{{ end }}
+			<br>
+			<div class="container">
+				<h5>{{ .Title }}</h5>
+				<p>{{ .Summary }}</p>
+			</div>
+		  </div>
+		  </a>
+		  
+          <!-- <div class="site-blog-post-thumb"> -->
+            <!-- <img src="{{ . | absURL }}" alt="post-thumb" height="100"> -->
+          <!-- </div> -->
+          
+          <!-- <div class="site-blog-post-content"> -->
+            <!-- <span>{{ .PublishDate.Format "January 2, 2006" }}</span> -->
+            <!-- <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3> -->
+            <!-- <p> -->
+              <!-- {{ .Summary }} ... -->
+            <!-- </p> -->
+            <!-- <a href="{{ .Permalink }}" class="read-more">read more</a> -->
+          <!-- </div> --> 
+		<br>
+        </article>
+
+      </div>
+      {{ end }}
+      <div class="col-12">
+        <div class="site-blog-pagination">
+          {{ template "_internal/pagination.html" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "call-to-action.html" . }}
+
+{{ end }}

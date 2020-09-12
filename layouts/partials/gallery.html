@@ -1,0 +1,22 @@
+{{ with .Site.Data.gallery }}
+  {{ if .enable }}
+  <section class="site-team">
+    <div class="container">
+      <div class="row">
+	  <div class="section-title">
+        <h2>{{ .title }}</h2>
+      </div>
+	  <div class="site-client-wrapper">
+        {{ range .galleryImages }}
+		<div class="site-client-item">
+			<a href="{{ .link | absURL }}">
+			  <img src="{{ .image | absURL }}" alt="gallery-images">
+			</a>  
+		</div>
+        {{ end }}
+      </div>
+	  </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

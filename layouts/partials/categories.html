@@ -1,0 +1,14 @@
+<!-- layouts/partials/categories.html -->
+{{ define "main" }}
+	{{ $taxonomy := "categories" }} {{ with .Param $taxonomy }}
+	<ul>
+	  {{ range $index, $categories := . }} 
+	  {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $categories) -}}
+	  <li>
+		<a href="{{ .Permalink }}">{{ $categories | urlize }}</a>
+	  </li>
+	  {{- end -}}
+	  {{- end -}}
+	</ul>
+	{{ end }}	
+{{ end }}
