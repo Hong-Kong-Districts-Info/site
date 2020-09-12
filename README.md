@@ -41,11 +41,9 @@ cd Documents/MyFolder/WebFiles
 
 1. Run `hugo server` and and open your browser to http://localhost:1313. This is your _local deployment_ of the website.
 
-1. Once you are happy with the results:
-  - Press Ctrl+C to kill the server
-  - Before proceeding run `rm -rf public` to completely remove the public directory
+1. Once you are happy with the results, you can press Ctrl+C to kill the server. Before proceeding, run `rm -rf public` to completely remove the `public` directory.
 
-1. `git submodule add -b master https://github.com/Hong-Kong-Districts-Info/hong-kong-districts-info.github.io.git public`. This creates a git submodule. Now when you run the `hugo` command to build your site to public, the created public directory will have a different remote origin (i.e. hosted GitHub repository).
+1. Run `git submodule add -b master https://github.com/Hong-Kong-Districts-Info/hong-kong-districts-info.github.io.git public`. This creates a git submodule. Now when you run the `hugo` command to build your site to public, the created public directory will have a different remote origin (i.e. hosted GitHub repository).
 
 Please see https://gohugo.io/hosting-and-deployment/hosting-on-github/ for the original instructions.
 
@@ -69,14 +67,14 @@ You can test this by duplicating and editing a Markdown file in `site/content/po
 |  ├── css
 |  ├── js
 |  └── scss
-├── config.toml
+├── config.toml ------------------------------- store main parameters for the site
 ├── content
 |  ├── about
 |  ├── blog
 |  ├── contact
 |  ├── dc
 |  └── portfolio
-├── data
+├── data  ------------------------------------- change data / content for certain pages. The appearances are specified in `partials`.
 |  ├── clients.yml
 |  ├── contact.yml
 |  ├── counter.yml
@@ -85,20 +83,20 @@ You can test this by duplicating and editing a Markdown file in `site/content/po
 |  ├── service.yml
 |  ├── team.yml
 |  └── testimonial.yml
-├── deploy.sh
-├── dev-mode.bat
-├── layouts
+├── deploy.sh --------------------------------- A shell script for pushing changes from the `public` subdirectory to GitHub Pages.
+├── dev-mode.bat ------------------------------ A batch file for running `hugo server` (local deployment).
+├── layouts ----------------------------------- Holds all the HTML files that affect the structure / layout of the website.
 |  ├── 404.html
 |  ├── about
 |  ├── blog
 |  ├── contact
 |  ├── dc
 |  ├── index.html
-|  ├── partials
+|  ├── partials  ------------------------------ Individual HTML elements that can make up the site.
 |  ├── portfolio
 |  ├── taxonomy
 |  └── _default
-├── public
+├── public ------------------------------------ Contains the static site outputs that Hugo generates by running `hugo`.
 |  ├── about
 |  ├── blog
 |  ├── categories
@@ -116,7 +114,7 @@ You can test this by duplicating and editing a Markdown file in `site/content/po
 |  ├── scss
 |  ├── sitemap.xml
 |  └── tags
-├── push-site.sh
+├── push-site.sh ------------------------------- A shell script for merging changes from the main site and pushing local changes.
 ├── README.md
 ├── resources
 |  └── _gen
