@@ -39,6 +39,20 @@ cd Documents/MyFolder/WebFiles
 
 1. Run `hugo server` and and open your browser to http://localhost:1313. This is your _local deployment_ of the website.
 
+1. Once you are happy with the results:
+  - Press Ctrl+C to kill the server
+  - Before proceeding run `rm -rf public` to completely remove the public directory
+
+1. `git submodule add -b master https://github.com/Hong-Kong-Districts-Info/hong-kong-districts-info.github.io.git public`. This creates a git submodule. Now when you run the `hugo` command to build your site to public, the created public directory will have a different remote origin (i.e. hosted GitHub repository).
+
+Please see https://gohugo.io/hosting-and-deployment/hosting-on-github/ for the original instructions.
+
 ## Making a change and testing locally
 
+You can run `hugo server` and and open your browser to http://localhost:1313 to test the website locally.
+
+You can test this by duplicating and editing a Markdown file in `site/content/portfolio/`, and the site should update accordingly.
+
 ## Deploying the site
+
+_To be written..._
