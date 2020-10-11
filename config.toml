@@ -99,6 +99,11 @@ googleAnalytics = "UA-173737339-2"
     enable              = true    
     title               = "District Map / 區議會選區地圖" 
     iframe_map          = "/widgets/MapHKDistricts.html"
+
+  [params.dcnetwork]
+    enable              = true    
+    title               = "District Council Network / 區議會選區網絡" 
+    iframe_map          = "/widgets/dc_network_plot.html"	
     
   [params.footer]
     # Footer Contact Info
