@@ -93,6 +93,13 @@ googleAnalytics = "UA-173737339-2"
     secondary_button    = "Not Convinced"
     secondary_button_url = "portfolio"
 
+  # Change settings here OR edit the partial district-map.html
+  # The leaflet is generated in R
+  [params.districtmap]
+    enable              = true    
+    title               = "District Map / 區議會選區地圖" 
+    iframe_map          = "/widgets/MapHKDistricts.html"
+    
   [params.footer]
     # Footer Contact Info
     [params.footer.contactInfo]
