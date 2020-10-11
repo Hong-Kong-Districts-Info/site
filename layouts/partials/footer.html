@@ -74,9 +74,17 @@
 <script src="{{ $script.Permalink }}"></script>
 
 <!-- Additional jscript for DataTables -->  
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css"/> 
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css"/> 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script> -->
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.22/b-1.6.5/b-colvis-1.6.5/b-flash-1.6.5/b-html5-1.6.5/b-print-1.6.5/r-2.2.6/datatables.min.css"/>
+ 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.22/b-1.6.5/b-colvis-1.6.5/b-flash-1.6.5/b-html5-1.6.5/b-print-1.6.5/r-2.2.6/datatables.min.js"></script>
+
 <script>
   $(document).ready( function () {
     $('#book-table').DataTable({
@@ -91,11 +99,18 @@
 } );
   $(document).ready( function () {
     $('#dc-table').DataTable({
+      dom: 'Bfrtip',
+      buttons: [
+        'copy', 'excel', 'pdf'
+      ],
+      "pageLength": 100,
       colReorder: true,
       autoFill: true,
       buttons: true,
       fixedHeader: true,
       keyTable: true,
+      "scrollX": true,
+      "scrollY": 500,
       responsive: true,
       rowReorder: true
     });
