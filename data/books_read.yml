@@ -1,0 +1,25 @@
+  books:
+  - name: The Hate U Give
+    author: Angie Thomas
+    pages: 392
+    publisher: Balzer + Bray
+    date_read: 2020-03-23
+    fiction: yes
+    female_author: yes
+    rating: 5
+  - name: The Hate U Give
+    author: Angie Thomas
+    pages: 392
+    publisher: Balzer + Bray
+    date_read: 2020-03-23
+    fiction: yes
+    female_author: yes
+    rating: 5    
+  - name: The Hate U Give
+    author: Angie Thomas
+    pages: 392
+    publisher: Balzer + Bray
+    date_read: 2020-03-23
+    fiction: yes
+    female_author: yes
+    rating: 5        

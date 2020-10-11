@@ -1,0 +1,22 @@
+<table id="book-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Author</th>
+      <th>Publisher</th>
+      <th>Rating</th>
+      <th>Date Read</th>
+      <th>Pages</th>
+      <th>Fiction?</th>
+      <th>Female Author?</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ $data := index $.Site.Data.books_read $.Params.data }}
+  {{ range $data }}
+    <tr>
+      {{ partial "books" . }}
+    </tr>
+  {{ end }}
+  </tbody>
+<table>

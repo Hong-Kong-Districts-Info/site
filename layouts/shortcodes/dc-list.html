@@ -1,0 +1,22 @@
+<table id="dc-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>District</th>
+      <th>Constituency</th>
+      <th>Party</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Facebook</th>
+      <th>Site Link</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ $data := index $.Site.Data.dc_table $.Params.data }}
+  {{ range $data }}
+    <tr>
+      {{ partial "dc_table" . }}
+    </tr>
+  {{ end }}
+  </tbody>
+<table>
