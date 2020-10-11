@@ -43,12 +43,11 @@ This app uses data from:
 
 Most of the data is put together as part of our other project {hkdatasets}, which collects public domain data about Hong Kong district councillors in an R package. Click [here](../../portfolio/hkdatasets/) to find out more.
 
-### Recommended Articles
-- [A Shiny App for Hong Kong District Councillors](https://martinctc.github.io/blog/a-shiny-app-on-hong-kong-district-councillors/), also posted on [R-bloggers](https://www.r-bloggers.com/)
-
 ### List of Hong Kong District Councillors (2019)
 
 Use the interactive table to search for a particular District Councillor and export their details.
 
 {{< dc-list data = "dc_table" >}}
 
+### Recommended Articles
+- [A Shiny App for Hong Kong District Councillors](https://martinctc.github.io/blog/a-shiny-app-on-hong-kong-district-councillors/), also posted on [R-bloggers](https://www.r-bloggers.com/)

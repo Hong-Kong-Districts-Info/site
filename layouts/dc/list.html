@@ -39,14 +39,12 @@
       <div class="col-lg-8 text-center">
         <h1>{{ .Title }}</h1>
         <p>
-          {{ .Params.description }}
+          {{ .Params.description }} 
         </p>
       </div>
     </div>
   </div>
 </section>
-<br>
-
 
 <section class="site-blog">
 	<div class="container2">
@@ -60,7 +58,14 @@
 		新界離島 / New Territories
 	</a>
 	</div>
-	<br>
+  <br>
+
+  
+  <div class="container">
+      <p> {{ .Content }} </p>
+  </div>
+
+  
   <div class="container">
     <div class="row">
       {{ range (.Paginator 100).Pages }}
