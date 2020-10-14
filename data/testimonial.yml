@@ -33,8 +33,19 @@ testimonial_item :
             
 
   - thumb : "images/team/gabriel.jpg"
-    name  : "Gabriel"
+    name  : "Gabriel" 
     company_position: "Data and Shiny Specialist"
     quote : > 
+
+  - thumb : "images/team/Chris.jpg"
+    name  : "Chris" 
+    company_position: "Civil Engineer"
+    quote : >
+    
+  - thumb : "images/team/Monique.jpg"
+    name  : "Monique" 
+    company_position: "Service design and growth strategist"
+    quote : > 
+    
             
             
