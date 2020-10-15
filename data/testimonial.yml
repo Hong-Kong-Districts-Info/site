@@ -5,46 +5,53 @@ testimonial_item :
   - thumb : "images/team/avision.jpg"
     name  : "Avision"
     company_position: "Data Scientist / Project Manager"
+    linkedin : https://www.linkedin.com/in/avision-ho-397066a2/
     quote : > 
             
 
   - thumb : "images/team/ocean.jpg"
     name  : "Ocean"
     company_position: "Design Specialist"
+    linkedin : https://www.linkedin.com/in/oc%C3%A9an-cheung-7860886b/
     quote : > 
             
 
   - thumb : "images/team/martin.jpg"
     name  : "Martin"
     company_position: "Data and R Specialist / Writer"
+    linkedin : https://www.linkedin.com/in/martin-chan-tc/
     quote : > 
             
             
   - thumb : "images/team/justin.jpg"
     name  : "Justin"
     company_position: "Urban planning specialist"
+    linkedin : https://www.linkedin.com/in/yimjustin/
     quote : > 
                       
 
   - thumb : "images/team/tiffany.jpg"
     name  : "Tiff"
     company_position: "UI Specialist"
+    linkedin : https://www.linkedin.com/in/tiffchau/
     quote : > 
             
 
   - thumb : "images/team/gabriel.jpg"
     name  : "Gabriel" 
-    company_position: "Data and Shiny Specialist"
+    company_position : "Data and Shiny Specialist"
     quote : > 
 
-  - thumb : "images/team/Chris.jpg"
+  - thumb : "images/team/Chris1.jpg"
     name  : "Chris" 
     company_position: "Civil Engineer"
+    linkedin : https://www.linkedin.com/in/chris-huisl/
     quote : >
     
   - thumb : "images/team/Monique.jpg"
     name  : "Monique" 
     company_position: "Service design and growth strategist"
+    linkedin : https://www.linkedin.com/in/moniquehyho/ 
     quote : > 
     
             

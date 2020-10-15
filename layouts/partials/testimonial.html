@@ -23,9 +23,10 @@
               <div class="person">
                 <h5>{{ .name }}</h5>
                 <p>{{ .company_position }}</p>
+                <a href="{{ .linkedin | absURL }}"><i class="fab fa-linkedin fa-1.5x"></i></a>                        
+              </div>     
               </div>
-            </div>
-            <p class="site-testimonial-item-body">
+            <p class="site-testimonial-item-body">              
               {{ .quote }}
             </p>
           </div>
