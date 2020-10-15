@@ -24,7 +24,7 @@ The Shiny app is deployed onto shinyapps.io in the link below:
 
 There is also a static site version of the district councillors individual pages here:
 
-<a class="btn btn-secondary btn-lg btn-block" href="https://hong-kong-districts-info.github.io/dc/" role="button">Static Site version</a>
+<a class="btn btn-secondary btn-lg btn-block" href="/dc/" role="button">Static Site version</a>
 
 ### GitHub Repository
 The GitHub repo can be accessed [here](https://github.com/Hong-Kong-Districts-Info/dashboard-hkdistrictcouncillors). 
