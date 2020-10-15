@@ -36,7 +36,7 @@ if (!doNotTrack) {
   
   <meta name="author" content="Hong Kong Districts Info">
   
-  <meta name="generator" content="Hugo 0.75.1" />
+  <meta name="generator" content="Hugo 0.74.3" />
 
   <!-- Bootstrap -->
   
@@ -205,7 +205,7 @@ if (!doNotTrack) {
 <li>Office address</li>
 <li>Number of votes, and share of votes won in 2019</li>
 </ul>
-<p>A function that was extremely helpful for figuring out the URL of the District Councillors' individual official pages is the following. What this does is to run a Bing search on the <a href="https://www.districtcouncils.gov.hk">https://www.districtcouncils.gov.hk</a> website, and scrape from the search result any links which match what we want (based on what the URL string looks like). Although this doesn&rsquo;t always work, it helped us a long way with the 452 District Councillors.</p>
+<p>A function that was extremely helpful for figuring out the URL of the District Councillors&rsquo; individual official pages is the following. What this does is to run a Bing search on the <a href="https://www.districtcouncils.gov.hk">https://www.districtcouncils.gov.hk</a> website, and scrape from the search result any links which match what we want (based on what the URL string looks like). Although this doesn&rsquo;t always work, it helped us a long way with the 452 District Councillors.</p>
 <pre><code>scrape_dcs &lt;- function(search_term){
   
   query_string &lt;- paste(&quot;site: https://www.districtcouncils.gov.hk&quot;, search_term)
@@ -239,7 +239,7 @@ if (!doNotTrack) {
 <p><strong>hkdatasets</strong> is currently only available on GitHub, and our aim is to release it on CRAN in the future so that more R users to take advantage of it. Check out our  <a href="https://github.com/hong-Kong-Districts-Info/hkdatasets">GitHub repo</a> to find out more about it.</p>
 <h2 id="-linking-our-shiny-app-to-facebook">🔗 Linking our Shiny App to Facebook</h2>
 <img src="https://github.com/Hong-Kong-Districts-Info/hong-kong-districts-info.github.io/raw/master/images/DCAppDemo3.gif" width=500>
-<p>When we first conceptualised this project, our aim has always been to make the Facebook Page content the centre piece of the app. This was contingent on using some form of Facebook API to access content on the District Councillors' Public Pages, which we initially thought would be easy as Public Page content is &lsquo;out there&rsquo;, and shouldn&rsquo;t require any additional permissions or approvals.</p>
+<p>When we first conceptualised this project, our aim has always been to make the Facebook Page content the centre piece of the app. This was contingent on using some form of Facebook API to access content on the District Councillors&rsquo; Public Pages, which we initially thought would be easy as Public Page content is &lsquo;out there&rsquo;, and shouldn&rsquo;t require any additional permissions or approvals.</p>
 <p>It turns out, in order to read public posts from Facebook Pages that we do not have admin access to requires a certain permission called <strong>Page Public Content Access</strong>, which in turn requires us to submit our app to Facebook for review. Reading several threads (such as <a href="https://developers.facebook.com/community/threads/385801828797027/">this</a>) online soon convinced us that this would be a fairly challenging process, as we need to effectively submit a proposal on why we had to request this permission. To add to the difficulty, we understood that the App Review process had been put on pause at the time, due to the re-allocation of resourcing during COVID-19.</p>
 <p>This drove us to search for a workaround, and this is where we stumbled across <em>iframes</em> as a solution. An <em>iframe</em> is basically a frame that enables you embed a HTML document within another HTML document (they&rsquo;ve existed for a long time, as I recall using them in the really early GeoCities and Xanga websites).</p>
 <p>The <code>iframe</code> concept roughly works as follows. All the Facebook Page URLs are saved in a vector called <code>FacebookURL</code>, and this is &ldquo;wrapped&rdquo; with some HTML markup that enables it to be rendered within the Shiny App as an UI component (using <code>shiny::uiOutput()</code>:</p>

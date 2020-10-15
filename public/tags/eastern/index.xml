@@ -6,7 +6,11 @@
     <description>Recent content in Eastern on Hong Kong Districts Info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hong-kong-districts-info.github.io/tags/eastern/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hong-kong-districts-info.github.io/tags/eastern/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>C-01: 太古城西 / TAI KOO SHING WEST</title>
       <link>https://hong-kong-districts-info.github.io/dc/c-01/</link>

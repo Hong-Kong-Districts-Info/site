@@ -6,7 +6,11 @@
     <description>Recent content in Hong Kong District Councillors on Hong Kong Districts Info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Dec 2019 20:17:01 +0600</lastBuildDate><atom:link href="https://hong-kong-districts-info.github.io/dc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Dec 2019 20:17:01 +0600</lastBuildDate>
+    
+	<atom:link href="https://hong-kong-districts-info.github.io/dc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>A-01: 中環 / CHUNG WAN</title>
       <link>https://hong-kong-districts-info.github.io/dc/a-01/</link>
