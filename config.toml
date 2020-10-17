@@ -71,7 +71,7 @@ googleAnalytics = "UA-173737339-2"
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/output.gif"
+    background_image      = "images/backgrounds/shell_output_video.gif"
     heading               = "We code for Hong Kong"
     tagline               = "EMPOWERING HONG KONG THROUGH CODING"
     primary_button        = "See Our Projects"
