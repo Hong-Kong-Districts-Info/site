@@ -6,6 +6,7 @@ testimonial_item :
     name  : "Avision"
     company_position: "Data Scientist / Project Manager"
     linkedin : https://www.linkedin.com/in/avision-ho-397066a2/
+    github: https://github.com/avisionh
     quote : > 
             
 
@@ -13,6 +14,7 @@ testimonial_item :
     name  : "Ocean"
     company_position: "Design Specialist"
     linkedin : https://www.linkedin.com/in/oc%C3%A9an-cheung-7860886b/
+    github: https://github.com/ocean0609
     quote : > 
             
 
@@ -20,13 +22,15 @@ testimonial_item :
     name  : "Martin"
     company_position: "Data and R Specialist / Writer"
     linkedin : https://www.linkedin.com/in/martin-chan-tc/
+    github : https://github.com/martinctc
     quote : > 
             
             
   - thumb : "images/team/justin.jpg"
     name  : "Justin"
-    company_position: "Urban planning specialist"
+    company_position: "Urban Planning Specialist"
     linkedin : https://www.linkedin.com/in/yimjustin/
+    github: https://github.com/justin-yim
     quote : > 
                       
 
@@ -34,23 +38,27 @@ testimonial_item :
     name  : "Tiff"
     company_position: "UI Specialist"
     linkedin : https://www.linkedin.com/in/tiffchau/
+    github: https://github.com/chautinsum
     quote : > 
             
 
   - thumb : "images/team/gabriel.jpg"
     name  : "Gabriel" 
     company_position : "Data and Shiny Specialist"
+    linkedin : https://www.linkedin.com/in/tamgabriel/
+    github: https://github.com/gabtam55
     quote : > 
 
-  - thumb : "images/team/Chris1.jpg"
+  - thumb : "images/team/Chris.jpg"
     name  : "Chris" 
-    company_position: "Civil Engineer"
+    company_position: "Civil Engineer / Web Developer"
     linkedin : https://www.linkedin.com/in/chris-huisl/
+    github: https://github.com/chrishui
     quote : >
     
   - thumb : "images/team/Monique.jpg"
     name  : "Monique" 
-    company_position: "Service design and growth strategist"
+    company_position: "Service Design and Growth Strategist"
     linkedin : https://www.linkedin.com/in/moniquehyho/ 
     quote : > 
     

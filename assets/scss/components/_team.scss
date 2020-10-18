@@ -1,7 +1,9 @@
 .site-team{
   padding: 100px 0;
+  // try changing to backgroudn color to gray, doesn't work? // 
+  background: $gray;
   &-member{
-    background: $gray;
+    background: $white;
     padding: 65px 30px 30px;
     margin: 50px 0 30px;
     position: relative;
