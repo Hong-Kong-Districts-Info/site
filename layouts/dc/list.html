@@ -60,6 +60,7 @@
 	</div>
   <br>
 
+
   
   <div class="container">
       <p> {{ .Content }} </p>
@@ -67,6 +68,9 @@
 
   
   <div class="container">
+    <div class="section-title">
+      <h2>All District Councillors</h2>
+    </div>
     <div class="row">
       {{ range (.Paginator 100).Pages }}
       <div class="col-md-3">
