@@ -24,7 +24,7 @@ The Shiny app is deployed onto shinyapps.io in the link below:
 
 There is also a static site version of the district councillors individual pages here:
 
-<a class="btn btn-secondary btn-lg btn-block" href="https://hong-kong-districts-info.github.io/dc/" role="button">Static Site version</a>
+<a class="btn btn-secondary btn-lg btn-block" href="/dc/" role="button">Static Site version</a>
 
 ### GitHub Repository
 The GitHub repo can be accessed [here](https://github.com/Hong-Kong-Districts-Info/dashboard-hkdistrictcouncillors). 
@@ -48,6 +48,12 @@ Most of the data is put together as part of our other project {hkdatasets}, whic
 Use the interactive table to search for a particular District Councillor and export their details.
 
 {{< dc-list data = "dc_table" >}}
+
+You can also navigate by identifying DCs by Districts:
+
+{{< dc-ball-links data = "gallery" >}}
+
+---
 
 ### Recommended Articles
 - [A Shiny App for Hong Kong District Councillors](https://martinctc.github.io/blog/a-shiny-app-on-hong-kong-district-councillors/), also posted on [R-bloggers](https://www.r-bloggers.com/)

@@ -51,7 +51,7 @@ data_master_raw %>%
              'date: ', quoquo(Sys.Date()), '\n',
              # 'image: images/logo-nonhex-g.png\n',
              'image: images/dc-avatar/', str_remove(ConstituencyCode, "-"), ".png\n",
-             'feature_image: images/blog/blog-details-image.jpg\n',
+             'feature_image: images/backgrounds/wide-banner.jpg\n',
              'author: "Hong Kong Districts Info"\n',
              'summary: ', quoquo(DC), '\n',
              'iframe: ', quoquo(Facebook), '\n',

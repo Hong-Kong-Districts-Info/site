@@ -30,7 +30,13 @@ This project combines Hong Kong's district council icons with code to generate a
 ![](/images/dc-art/District_Balls_Small/DistrictBalls_17.png)
 ![](/images/dc-art/District_Balls_Small/DistrictBalls_18.png)
 
+We created a set of graphics for each of Hong Kong's 18 districts, which you will find scattered on our website as icons representing the respective councils. 
 
+### hkdistrictballs R package
+
+The [**hkdistrictballs**](https://github.com/Hong-Kong-Districts-Info/hkdistrictballs) R package allows you to generate custom district balls with your desired districts, captions, and facial expressions. 
+
+This package is still now active development, but you can try it out with our development version on [GitHub](https://github.com/Hong-Kong-Districts-Info/hkdistrictballs). 
 
 _More coming soon..._
 
