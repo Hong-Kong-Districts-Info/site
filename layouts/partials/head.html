@@ -1,31 +1,31 @@
 <head>
-  <meta charset="utf-8" />
-  <title>{{ .Title }}</title>
-  
-  {{ template "_internal/google_analytics.html" . }}
-  {{ template "_internal/google_analytics_async.html" . }}
+    <meta charset="utf-8" />
+    <title>{{ .Title }}</title>
 
-  {{ "<!-- mobile responsive meta -->" | safeHTML }}
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  {{ with .Site.Params.author }}
-  <meta name="author" content="{{ . }}">
-  {{ end }}
-  {{ hugo.Generator }}
+    {{ template "_internal/google_analytics.html" . }}
+	{{ template "_internal/google_analytics_async.html" . }} 
+	{{ "<!-- mobile responsive meta -->" | safeHTML }}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+	{{ with .Site.Params.author }}
+    <meta name="author" content="{{ . }}"> {{ end }} {{ hugo.Generator }} 
+	{{ "    <!-- Bootstrap -->" | safeHTML }} {{ $bootstrap := resources.Get "css/bootstrap.css" | minify }}
+    <link rel="stylesheet" href="{{ $bootstrap.Permalink }}" /> 
+	{{ "    <!-- font-awesome -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "font-awesome/css/font-awesome.min.css" | absURL }}" /> 
+	{{ "    <!-- Main Stylesheets -->" | safeHTML }}
+	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
+    <link href="{{ $style.Permalink }}" rel="stylesheet" />
 
-  {{ "<!-- Bootstrap -->" | safeHTML }}
-  {{ $bootstrap := resources.Get "css/bootstrap.css" | minify }}
-  <link rel="stylesheet" href="{{ $bootstrap.Permalink }}" />
-  {{ "<!-- font-awesome -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ "font-awesome/css/font-awesome.min.css" | absURL }}" />
-  {{ "<!-- Main Stylesheets -->" | safeHTML }}
-  {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
-  <link href="{{ $style.Permalink }}" rel="stylesheet" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
+    <link rel="icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
 
-  <!--Favicon-->
-  <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
-  <link rel="icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />  
-
-  <!-- font awesome-->
-  <script src="https://kit.fontawesome.com/0402af6e48.js" crossorigin="anonymous"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/0402af6e48.js" crossorigin="anonymous"></script>
+	
+	<!-- Swipebox --> 
+	<link rel="stylesheet" href="/shortcode-gallery/swipebox/css/swipebox.min.css">
+	<link rel="stylesheet" href="/shortcode-gallery/justified_gallery/justifiedGallery.css"/>
+	<link rel="stylesheet" href="/shortcode-gallery/justified_gallery/justifiedGallery.min.css"/>
 </head>

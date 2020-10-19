@@ -39,8 +39,3 @@ The [**hkdistrictballs**](https://github.com/Hong-Kong-Districts-Info/hkdistrict
 This package is still now active development, but you can try it out with our development version on [GitHub](https://github.com/Hong-Kong-Districts-Info/hkdistrictballs). 
 
 _More coming soon..._
-
-
-
-
-

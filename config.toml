@@ -1,9 +1,10 @@
 baseURL       = "https://hong-kong-districts-info.github.io/"
 languageCode  = "en-us"
 title         = "Hong Kong Districts Info"
-theme         = "roxo"
+theme         = ["roxo", "hugo-shortcode-gallery"]
 summarylength = 25
 googleAnalytics = "UA-173737339-2"
+canonifyurls = "true"
 
 [markup]
   [markup.goldmark]
