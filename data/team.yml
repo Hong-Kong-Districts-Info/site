@@ -1,44 +1,51 @@
 enable  : true
-title   : Team that makes the difference.
+title   : Our team
 members  :
-  - image       : images/team/team-member-one.jpg
-    name        : PABLO ESCOBAR
-    designation : Creative Director
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/avision_resize.jpg
+    name        : AVISION
+    designation : Data Scientist / Project Manager
+    linkedin    : https://www.linkedin.com/in/avision-ho-397066a2/
+    github      : https://github.com/avisionh    
 
-  - image       : images/team/team-member-two.jpg
-    name        : MONTINO RIAU
-    designation : Product Manager
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/ocean_resize.jpg
+    name        : OCEAN
+    designation : Design Specialist
+    linkedin    : https://www.linkedin.com/in/oc%C3%A9an-cheung-7860886b/
+    github      : https://github.com/ocean0609
+    
 
-  - image       : images/team/team-member-three.jpg
-    name        : ALEX NAASRI
-    designation : Chief Design Officer
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/martin_resize.jpg
+    name        : MARTIN
+    designation : Data and R Specialist / Writer
+    linkedin    : https://www.linkedin.com/in/martin-chan-tc/
+    github      : https://github.com/martinctc
 
-  - image       : images/team/team-member-four.jpg
-    name        : HONGMAN CHIOA
-    designation : UX Researcher
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/justin_resize.jpg
+    name        : JUSTIN
+    designation : Urban Planning Specialist
+    linkedin    : https://www.linkedin.com/in/yimjustin/
+    github      : https://github.com/justin-yim
 
-  - image       : images/team/team-member-five.jpg
-    name        : SANTIO ANDRESS
-    designation : Content Researcher
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/tiffany_resize.jpg
+    name        : TIFFANY
+    designation : UI Specialist
+    linkedin    : https://www.linkedin.com/in/tiffchau/
+    github      : https://github.com/chautinsum
 
-  - image       : images/team/team-member-six.jpg
-    name        : RAMESH PAUL
-    designation : Creative Designer
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/gabriel_resize.jpg
+    name        : GABRIEL
+    designation : Data and Shiny Specialist
+    linkedin    : https://www.linkedin.com/in/tamgabriel/
+    github      : https://github.com/gabtam55
+
+  - image       : images/team/chris_resize.jpg
+    name        : CHRIS
+    designation : Civil Engineer / Web Developer
+    linkedin    : https://www.linkedin.com/in/chris-huisl/
+    github      : https://github.com/chrishui  
+
+  - image       : images/team/monique_resize.jpg
+    name        : MONIQUE
+    designation : Service Design / Growth Strategist
+    linkedin    : https://www.linkedin.com/in/moniquehyho/ 
+    github      : https://github.com/ 
