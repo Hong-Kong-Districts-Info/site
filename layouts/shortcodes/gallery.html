@@ -158,7 +158,7 @@ Ordinal: {{ .Ordinal}}
 						{{ end }}
 
 						{{ if $showExif }}
-							data-description=""						
+							data-description= "{{ $metadata.Caption }}"						
 						{{ end }}
 
 						{{ if not (eq $filterOptions "[]")  }}
