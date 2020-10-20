@@ -1,0 +1,79 @@
+{{ define "main" }}
+<style>
+.container2 {
+  position: relative;
+  overflow: visible; /* previously hidden */
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  <!-- padding-top: 56.25%; -->
+  <!-- padding-top: 300%; /* 16:9 Aspect Ratio (divide 3 by 1 = 3) */ -->
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<section class="site-blog details">
+  <div class="container">
+	  <div class="row justify-content-center">	
+		  <div class="col">	  
+			<article class="site-blog-details">
+			  <p><span>{{ .PublishDate.Format "January 2, 2006" }}</span> by <span>{{ .Params.author }}</span></p>
+			  <h2 class="blog-title">{{ .Title }}</h2>
+			  <img class="feature-image" src="{{ .Params.feature_image | absURL }}" alt="blog-feature-image">          
+			</article>
+		  </div>	
+	  </div>
+    
+    <div class="row justify-content-center">	
+      <div class="col-lg-7 col-sm">	  
+        <article class="site-blog-details">      
+          {{ .Content }}
+        </article>
+	  </div>		
+		
+	<div class="col-lg-5 col-sm">
+		<h3>Facebook Feed</h3><br>
+			<!-- <div class ="container2"> -->
+			<iframe class = "responsive-iframe" src="https://www.facebook.com/plugins/page.php?href= {{ .Params.iframe }} &tabs=timeline&width=800&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=3131730406906292" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>	
+			<!-- </div>	 -->
+	</div>
+	</div>	
+	<br>
+		<hr>
+		 {{ if .NextInSection }}
+          <div class="site-project-single-action">
+            <a href="{{.NextInSection.Permalink}}">
+              <span class="link-area">
+                <span data-text="Next District Councillor"> Next District Councillor </span>
+              </span>
+              <img src="{{ "images/to-top.svg" | absURL }}" alt="next district councillor">
+            </a>
+          </div>
+		  {{ else }} 
+		  <!-- If there is not a next DC, go previous DC -->
+		   <div class="site-project-single-action">
+            <a href="{{.PrevInSection.Permalink}}">
+              <span class="link-area">
+                <span data-text="Next District Councillor"> Next District Councillor </span>
+              </span>
+              <img src="{{ "images/to-top.svg" | absURL }}" alt="next district councillor">
+            </a>
+          </div>
+		  
+         {{ end }}
+		
+      
+    </div>
+  </div>
+</section>
+
+<!-- {{ partial "call-to-action.html" . }} -->
+
+{{ end }}
