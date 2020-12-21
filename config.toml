@@ -51,7 +51,7 @@ canonifyurls = "true"
 
 # Site Params
 [params]
-  logo = "images/logo-nonhex-g.png"
+  logo = "images/logo-xmas.png"
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "Hong Kong Districts Info"
