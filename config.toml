@@ -1,10 +1,10 @@
 baseURL       = "https://hong-kong-districts-info.github.io/"
-languageCode  = "en-us"
-title         = "Hong Kong Districts Info"
 theme         = ["roxo", "hugo-shortcode-gallery"]
 summarylength = 25
 googleAnalytics = "UA-173737339-2"
 canonifyurls = "true"
+defaultContentLanguage = "en" # Multilingual add
+defaultContentLanguageInSubdir = true
 
 [markup]
   [markup.goldmark]
@@ -25,29 +25,85 @@ canonifyurls = "true"
       unsafe = true
       xhtml = false
 
-# Site Menus
-[menu]
-  # Navbar Menus
-  [[menu.nav]]
-    name    = "Home / 主頁"
-    url     = ""
-    weight  = 1
-  [[menu.nav]]
-    name    = "About / 關於"
-    url     = "about"
-    weight  = 2
-  [[menu.nav]]
-    name    = "Projects / 項目"
-    url     = "portfolio"
-    weight  = 3
-  [[menu.nav]]
-    name    = "Blog / 博客"
-    url     = "blog"
-    weight  = 4
-  [[menu.nav]]
-    name    = "Get in touch / 聯絡我們"
-    url     = "contact"
-    weight  = 5
+# MULTI-LINGUAL SETUP
+
+[languages]
+  
+  ########################################################################################## 
+  # English    
+  [languages.en]
+  title = "Hong Kong Districts Info"
+  languageName = "English"
+  weight = 2
+    contentDir = "content/en/"
+
+    [[languages.en.menu.nav]]
+      name = "Home"
+      url     = "/en/"
+      weight  = 1
+
+    [[languages.en.menu.nav]]
+      name = "About"
+      url     = "/en/about/"
+      weight  = 2
+
+    [[languages.en.menu.nav]]
+      name = "Projects"
+      url     = "/en/portfolio"
+      weight  = 3    
+
+    [[languages.en.menu.nav]]
+      name = "Blog"
+      url     = "/en/blog"
+      weight  = 4
+
+    [[languages.en.menu.nav]]
+      name = "中文"
+      url     = "/zh/"
+      weight  = 5
+
+    [[languages.en.menu.nav]]
+      name = "Get in touch"
+      url     = "/en/contact"
+      weight  = 6      
+
+  ##########################################################################################
+  # Chinese     
+  [languages.zh]
+  title = "香港區域數據"
+  languageName = "中文"
+  weight = 2
+    contentDir = "content/zh/"
+
+    [[languages.zh.menu.nav]]
+      name = "主頁"
+      url     = "/zh/"
+      weight  = 1
+
+    [[languages.zh.menu.nav]]
+      name = "關於"
+      url     = "/zh/about/"
+      weight  = 2
+
+    [[languages.zh.menu.nav]]
+      name = "項目"
+      url     = "/zh/portfolio"
+      weight  = 3    
+
+    [[languages.zh.menu.nav]]
+      name = "博客"
+      url     = "/zh/blog"
+      weight  = 4
+
+    [[languages.zh.menu.nav]]
+      name = "English"
+      url     = "/en/"
+      weight  = 5
+
+    [[languages.zh.menu.nav]]
+      name = "聯絡我們"
+      url     = "/zh/contact"
+      weight  = 6
 
 # Site Params
 [params]
@@ -70,7 +126,7 @@ canonifyurls = "true"
   
 
   # Banner Section
-  [params.banner]
+  [languages.en.params.banner]
     enable                = true
     background_image      = "images/backgrounds/shell_output_video.gif"
     heading               = "We code for Hong Kong"
@@ -80,19 +136,45 @@ canonifyurls = "true"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
 
-  [params.portfolio]
+  [languages.zh.params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/shell_output_video.gif"
+    heading               = "We code for Hong Kong"
+    tagline               = "利用編程　數據科學　回饋香港"
+    primary_button        = "瀏覽項目"
+    primary_button_url    = "portfolio"
+    secondary_button      = "聯絡我們"
+    secondary_button_url  = "contact"  
+
+  # Portfolio
+  [languages.en.params.portfolio]
     enable    = true
-    title     = "OUR RECENT PROJECTS"
+    title     = "OUR PROJECTS"
     subtitle  = "Projects to empower Hong Kong"
 
-  [params.call_to_action]
+  [languages.zh.params.portfolio]
+    enable    = true
+    title     = "項目"
+    subtitle  = "由香港區域數據成立的項目"
+
+  # Call to Action
+  [languages.en.params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
     title               = "LET’S WORK TOGETHER"
     primary_button      = "Submit Query"
-    primary_button_url  = "contact"
+    primary_button_url  = "/en/contact"
     secondary_button    = "Not Convinced"
-    secondary_button_url = "portfolio"
+    secondary_button_url = "/en/portfolio"
+
+  [languages.zh.params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "來跟我們合作吧!"
+    primary_button      = "聯絡我們"
+    primary_button_url  = "/zh/contact"
+    secondary_button    = "為甚麼?"
+    secondary_button_url = "/zh/portfolio"
 
   # Change settings here OR edit the partial district-map.html
   # The leaflet is generated in R
@@ -102,7 +184,7 @@ canonifyurls = "true"
     iframe_map          = "/widgets/MapHKDistricts.html"
 
   [params.dcnetwork]
-    enable              = true    
+    enable              = false    
     title               = "District Council Network / 區議會選區網絡" 
     iframe_map          = "/widgets/dc_network_plot.html"	
     
