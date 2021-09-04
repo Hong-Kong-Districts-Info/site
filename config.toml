@@ -107,7 +107,7 @@ defaultContentLanguageInSubdir = true
 
 # Site Params
 [params]
-  logo = "images/logo-xmas.png"
+  logo = "images/HKDI-01.png"
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "Hong Kong Districts Info"
@@ -178,9 +178,14 @@ defaultContentLanguageInSubdir = true
 
   # Change settings here OR edit the partial district-map.html
   # The leaflet is generated in R
-  [params.districtmap]
+  [languages.en.params.districtmap]
     enable              = true    
-    title               = "District Map / 區議會選區地圖" 
+    title               = "District Map" 
+    iframe_map          = "/widgets/MapHKDistricts.html"
+
+  [languages.zh.params.districtmap]
+    enable              = true    
+    title               = "區議會選區地圖" 
     iframe_map          = "/widgets/MapHKDistricts.html"
 
   [params.dcnetwork]

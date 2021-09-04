@@ -18,7 +18,8 @@ members  :
     name        : MARTIN
     designation : Data and R Specialist / Writer
     linkedin    : https://www.linkedin.com/in/martin-chan-tc/
-    github      : https://github.com/martinctc
+    github      : https://github.com/martinctc/
+    twitter     : https://twitter.com/martin_rstats
 
   - image       : images/team/justin_resize.jpg
     name        : JUSTIN
@@ -49,3 +50,9 @@ members  :
     designation : Service Design / Growth Strategist
     linkedin    : https://www.linkedin.com/in/moniquehyho/ 
     github      : https://github.com/ 
+
+  - image       : images/team/kenneth_resize.jpg
+    name        : KENNETH
+    designation : Data Scientist / R developer
+    twitter     : https://twitter.com/kenneth_KHW/
+    github      : https://github.com/KHwong12

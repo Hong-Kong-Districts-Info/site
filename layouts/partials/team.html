@@ -20,8 +20,9 @@
               <h3>{{ .name }}</h3>
               <p>{{ .designation }}</p>
               <ul class="site-team-member-social">
-                <li><a href="{{ .linkedin | absURL }}"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="{{ .github | absURL }}"><i class="fab fa-github-square"></i></a> </li>
+			    {{ if .linkedin }}<li><a href="{{ .linkedin | absURL }}"><i class="fa fa-linkedin"></i></a></li>{{ end }}
+                {{ if .github }}<li><a href="{{ .github | absURL }}"><i class="fab fa-github-square"></i></a> </li>{{ end }}
+                {{ if .twitter }}<li><a href="{{ .twitter | absURL }}"><i class="fab fa-twitter"></i></a> </li>{{ end }}
               </ul>
             </div>
           </div>
