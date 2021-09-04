@@ -3,7 +3,7 @@ title   : Our team
 members  :
   - image       : images/team/avision_resize.jpg
     name        : AVISION
-    designation : Data Scientist / Project Manager
+    designation : Data Scientist | Project Manager
     linkedin    : https://www.linkedin.com/in/avision-ho-397066a2/
     github      : https://github.com/avisionh    
 
@@ -16,7 +16,7 @@ members  :
 
   - image       : images/team/martin_resize.jpg
     name        : MARTIN
-    designation : Data and R Specialist / Writer
+    designation : Analytics Specialist | Technical Writer
     linkedin    : https://www.linkedin.com/in/martin-chan-tc/
     github      : https://github.com/martinctc/
     twitter     : https://twitter.com/martin_rstats
@@ -41,18 +41,22 @@ members  :
 
   - image       : images/team/chris_resize.jpg
     name        : CHRIS
-    designation : Civil Engineer / Web Developer
+    designation : Civil Engineer | Web Developer
     linkedin    : https://www.linkedin.com/in/chris-huisl/
     github      : https://github.com/chrishui  
 
   - image       : images/team/monique_resize.jpg
     name        : MONIQUE
-    designation : Service Design / Growth Strategist
-    linkedin    : https://www.linkedin.com/in/moniquehyho/ 
-    github      : https://github.com/ 
+    designation : Service Design | Growth Strategist
+    linkedin    : https://www.linkedin.com/in/moniquehyho/
+
+  - image       : images/team/ezreal_resize.jpg
+    name        : EZREAL
+    designation : Urban Planning Specialist
+    github      : https://github.com/ezrealsin
 
   - image       : images/team/kenneth_resize.jpg
     name        : KENNETH
-    designation : Data Scientist / R developer
+    designation : Spatial Data Scientist | Urban Planner
     twitter     : https://twitter.com/kenneth_KHW/
     github      : https://github.com/KHwong12
